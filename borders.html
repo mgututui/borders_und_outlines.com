@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+ <html>
+  <head>
+    <link rel="stylesheet" href="borders.css" />
+    <title>borders</title>
+	<style>
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+p.six {
+  border-style: double;
+  border-width: thick;
+}
+
+p.seven {
+  border-style: solid;
+  border-width: 2px 10px 4px 20px;
+  
+}
+</style><style>
+p.eight {
+  border-style: solid;
+  border-color: red;
+}
+
+p.nine {
+  border-style: solid;
+  border-color: green;
+} 
+
+p.ten {
+  border-style: solid;
+  border-color: red green blue yellow;
+} 
+</style>
+  </head>
+  <body>
+    <div id="header"><h1><a href="borders_und_outline.html">borders_und_outline</a></h1></div>
+	<div id="content">
+	  <h1>CSS Borders</h1>
+	</div>
+	<div id="paragraph">
+	  <h2>CSS border – Rahmen</h2>
+	  <p1>border ist eine Kurzschrift, die alle Eigenschaften eines sichtbaren Rahmens um ein HTML-Element zusammenfasst. Drei Angaben sind erforderlich, damit der Browser einen sichtbaren Rahmen rendert: border-color für die Farbe des Rahmens, border-style für Linien, Punkte oder doppelte Linien und border-width für die Breite von border.</p1>
+	    <ul>
+		<li>Farbe border-color</li>
+		<li>Breite border-width</li>
+		<li>Stil border-style</li>
+		</ul>
+		<h2>CSS Border Style</h2>
+		<p1>Die Eigenschaft border-style gibt an, welche Art von border angezeigt werden soll.<br>
+
+Folgende Werte sind erlaubt:<br>
+      </p1>
+	  <ul>
+	  <li>dotted- Definiert einen gepunkteten Rand</li>
+	  <li>dashed - Definiert einen gestrichelten Rand</li>
+	  <li>solid - Definiert einen soliden Rand</li>
+	  <li>double - Definiert einen doppelten Rand</li>
+	  <li>groove - Definiert einen 3D-Rillenrand. Der Effekt hängt vom Randfarbenwert ab</li>
+	  <li>ridge - Definiert eine 3D-Kantenlinie. Der Effekt hängt vom Randfarbenwert ab</li>
+	  <li>inset - Definiert eine 3D-Einfügungsgrenze. Der Effekt hängt vom Randfarbenwert ab</li>
+	  <li>outset - Definiert einen 3D-Anfangsrand. Der Effekt hängt vom Randfarbenwert ab</li>
+	  <li>none - Definiert keinen Rand
+hidden - Definiert einen versteckten Rand</li>
+	  </ul>
+	  <p1>Die border-style-Eigenschaft kann einen bis vier Werte haben (für den oberen Rand, den rechten Rand, den unteren Rand und den linken Rand).</p1>
+	  <h2>Beispiel</h2>
+       <div id="image">
+  <center><img src="border_style.png" size="80%"  width="450px" alt="style_code" class="responsive"/></center>
+  <h3>Das Resultat:</h3>
+  <div id="image">
+  <center><img src="borders_result.png" size="80%"  width="850px" alt="result" class="responsive"/></center>
+	</div>
+	</div>
+	<h2>CSS Border Width</h2>
+	<p3>Die Eigenschaft border-width gibt die Breite der vier Rahmen an.<br>
+
+Die Breite kann auf eine bestimmte Größe (in px, pt, cm, em usw.) oder mithilfe eines der drei vordefinierten Werte eingestellt werden: thin, medium, oder thick.<br>
+
+Die Eigenschaft border-width kann einen bis vier Werte haben (für den oberen Rand, den rechten Rand, den unteren Rand und den linken Rand).</p3>
+<div id="image">
+  <center><img src="border_width_example.png" size="80%"  width="400px" alt="result" class="responsive"/></center>
+  <p class="one">Some text.</p>
+<p class="two">Some text.</p>
+<p class="three">Some text.</p>
+<p class="four">Some text.</p>
+<p class="five">Some text.</p>
+<p class="six">Some text.</p>
+<p class="seven">Some text.</p>
+	</div>
+	<h2>CSS Border Color</h2>
+	<p>Mit der Eigenschaft border-color wird die Farbe der vier Rahmen festgelegt.<br><br>
+
+Die Farbe kann eingestellt werden durch:<br><br>
+
+name - Geben Sie einen Farbnamen an, z. B. "red".<br>
+Hex - Geben Sie einen hexadezimalen Wert an, z. B. "# ff0000".<br>
+RGB - Geben Sie einen RGB-Wert wie "rgb (255,0,0)" an.<br>
+transparent<br><br>
+Die border-color Eigenschaft kann einen bis vier Werte haben (für den oberen Rand, den rechten Rand, den unteren Rand und den linken Rand).<br><br>
+
+Wenn die border-color nicht festgelegt ist, wird die Farbe des Elements übernommen.</p>
+<p class="eight">A solid red border</p>
+<p class="nine">A solid green border</p>
+<p class="ten">A solid multicolor border</p>
+	</div>
+  </body>
+ </html>

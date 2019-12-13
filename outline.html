@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+ <html>
+  <head>
+  <style>
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+}
+
+p.ex2 {
+  border: 1px solid black;
+  outline-style: double;
+  outline-color: green;
+}
+
+p.ex3 {
+  border: 1px solid black;
+  outline-style: outset;
+  outline-color: yellow;
+}
+p.ex4 {
+  border: 1px solid yellow;
+  outline-style: solid;
+  outline-color: invert;
+}
+p.ex5 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
+
+p.ex6 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium;
+}
+
+p.ex7 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+}
+
+p.ex8 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+}
+p.ex9 {outline: dashed;}
+p.ex10{outline: dotted red;}
+p.ex11 {outline: 5px solid yellow;}
+p.ex12{outline: thick ridge pink;}
+p.ex13 {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+</style>
+    <link rel="stylesheet" href="outline.css" />
+    <title>outline</title>
+  </head>
+  <body>
+    <div id="header"><h1><a href="borders_und_outline.html">borders_und_outline</a></h1></div>
+	<div id="content">
+	 <h1>CSS Outline</h1>
+	 </div>
+	 	<div id="paragraph">
+	 <p1>
+Ein Umriss ist eine Linie, die um Elemente AUSSERHALB der Ränder gezogen wird, um das Element "hervorzuheben".</p1>
+<center><img src="outline.png" size="80%"  width="850px" alt="style_code" class="responsive"/></center><br><br>
+<p1>CSS hat die folgenden outline Eigenschaften:</p1>
+<ul>
+		<li>outline-style</li>
+		<li>outline-color</li>
+		<li>outline-width</li>
+		<li>outline-offset</li>
+		<li>outline</li>
+		</ul>
+		<h2>CSS Outline Style</h2>
+		  <center><img src="outline_style.png" size="80%"  width="450px" alt="style_code" class="responsive"/></center>
+		  <center><img src="outline_result.png" size="80%"  width="850px" alt="style" class="responsive"/></center>
+		  <h2>CSS Outline Color</h2>
+		  <p2>Mit der Eigenschaft outline-color wird die Farbe der Kontur festgelegt.<br><br>
+		  name - Geben Sie einen Farbnamen an, z. B. "red".<br>
+Hex - Geben Sie einen hexadezimalen Wert an, z. B. "# ff0000".<br>
+RGB - Geben Sie einen RGB-Wert wie "rgb (255,0,0)" an.<br>
+invert - führt eine Farbumkehrung durch (wodurch sichergestellt wird, dass der Umriss unabhängig vom Farbhintergrund sichtbar ist)<br><br></p2>
+
+<p class="ex1">A solid red outline.</p>
+<p class="ex2">A double green outline.</p>
+<p class="ex3">An outset yellow outline.</p>
+<p class="ex4">A solid invert outline.</p>
+
+<h2>CSS Outline Width</h2>
+<p>Die Eigenschaft outline-width gibt die Breite der Kontur an und kann einen der folgenden Werte annehmen:<br><br>
+thin (typisch 1px)<br>
+medium (typisch 3px)<br>
+thick (typisch 5px)<br>
+Eine bestimmte Größe (in px, pt, cm, em, etc)<br><br></p>
+<p class="ex5">A thin outline.</p>
+<p class="ex6">A medium outline.</p>
+<p class="ex7">A thick outline.</p>
+<p class="ex8">A 4px thick outline.</p>
+<h2>CSS Outline - Shorthand property</h2>
+<p>Die Eigenschaft outline ist eine Kurzform zum Festlegen der folgenden einzelnen Gliederungseigenschaften:<br><br>
+outline-width<br>
+outline-style<br>
+outline-color<br><br></p>
+<p class="ex9">A dashed outline.</p>
+<p class="ex10">A dotted red outline.</p>
+<p class="ex11">A 5px solid yellow outline.</p>
+<p class="ex12">A thick ridge pink outline.</p>
+<h2>CSS Outline Offset</h2>
+<p>Die Eigenschaft outline-offset fügt einen Abstand zwischen einem Umriss und der Kante / dem Rand eines Elements hinzu. Der Abstand zwischen einem Element und seiner Kontur ist transparent.<br><br>
+
+Das folgende Beispiel gibt einen Umriss von 15 Pixel außerhalb der Randkante an:<br><br></p>
+<p class="ex13">This paragraph has an outline 15px outside the border edge.</p>
+
+		  
+		  
+	</div>
+  </body>
+ </html>
